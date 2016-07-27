@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C6BA60B41404597707445CD /* libPods-LifeAs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CDFB5405F67D12BF9585E1 /* libPods-LifeAs.a */; };
+		980C2FED1D48B6F200EE7A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980C2FEC1D48B6F200EE7A3E /* Assets.xcassets */; };
+		980C2FF01D48B6FF00EE7A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980C2FEE1D48B6FF00EE7A3E /* LaunchScreen.storyboard */; };
 		987C4A7B1CB7494E004D2041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 987C4A7A1CB7494E004D2041 /* main.m */; };
-		987C4A861CB7494E004D2041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987C4A851CB7494E004D2041 /* Assets.xcassets */; };
-		987C4A891CB7494E004D2041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987C4A871CB7494E004D2041 /* LaunchScreen.storyboard */; };
 		98AE7BC21D45B55C00D8A658 /* ALLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7B841D45B55C00D8A658 /* ALLoadingView.m */; };
 		98AE7BC31D45B55C00D8A658 /* ASAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7B861D45B55C00D8A658 /* ASAlertView.m */; };
 		98AE7BC41D45B55C00D8A658 /* ASDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7B881D45B55C00D8A658 /* ASDataHelper.m */; };
@@ -107,10 +107,10 @@
 /* Begin PBXFileReference section */
 		2CD8199F2C0B3E2827FD30FC /* Pods-LifeAs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeAs.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifeAs/Pods-LifeAs.release.xcconfig"; sourceTree = "<group>"; };
 		42CDFB5405F67D12BF9585E1 /* libPods-LifeAs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LifeAs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		980C2FEC1D48B6F200EE7A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LifeAs/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		980C2FEF1D48B6FF00EE7A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LifeAs/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		987C4A761CB7494E004D2041 /* LifeAs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeAs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987C4A7A1CB7494E004D2041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		987C4A851CB7494E004D2041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
-		987C4A881CB7494E004D2041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		987C4A8A1CB7494E004D2041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98AE7B831D45B55C00D8A658 /* ALLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLoadingView.h; sourceTree = "<group>"; };
 		98AE7B841D45B55C00D8A658 /* ALLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLoadingView.m; sourceTree = "<group>"; };
@@ -548,8 +548,8 @@
 		98AE7C1D1D45B62A00D8A658 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				987C4A851CB7494E004D2041 /* Assets.xcassets */,
-				987C4A871CB7494E004D2041 /* LaunchScreen.storyboard */,
+				980C2FEE1D48B6FF00EE7A3E /* LaunchScreen.storyboard */,
+				980C2FEC1D48B6F200EE7A3E /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -799,8 +799,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987C4A891CB7494E004D2041 /* LaunchScreen.storyboard in Resources */,
-				987C4A861CB7494E004D2041 /* Assets.xcassets in Resources */,
+				980C2FF01D48B6FF00EE7A3E /* LaunchScreen.storyboard in Resources */,
+				980C2FED1D48B6F200EE7A3E /* Assets.xcassets in Resources */,
 				98AE7CAC1D45DFCE00D8A658 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -957,13 +957,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		987C4A871CB7494E004D2041 /* LaunchScreen.storyboard */ = {
+		980C2FEE1D48B6FF00EE7A3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				987C4A881CB7494E004D2041 /* Base */,
+				980C2FEF1D48B6FF00EE7A3E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
