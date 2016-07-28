@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "HomeViewController.h"
-#import "BaseNavigationViewController.h"
+
+#import "BaseTabBarViewController.h"
+
+
+#import "UISettingExtention.h"
 @interface AppDelegate ()
 
 @end
@@ -18,8 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    HomeViewController * home  = [[HomeViewController alloc] init];
-    self.window.rootViewController =[[BaseNavigationViewController alloc] initWithRootViewController:home];
+    BaseTabBarViewController * tabbar   = [[BaseTabBarViewController alloc] init];
+    self.window.rootViewController = tabbar;
     return YES;
 }
 
@@ -53,7 +56,7 @@
         
         _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
         
-        _window.backgroundColor = [UIColor whiteColor];
+        _window.backgroundColor = UIColorFromRGB(0x34a8c1);
         
         [_window makeKeyAndVisible];
         

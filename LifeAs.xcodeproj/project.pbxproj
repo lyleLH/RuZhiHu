@@ -102,6 +102,11 @@
 		98AE7CAB1D45DFCE00D8A658 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AE7CA91D45DFCE00D8A658 /* HomeViewController.m */; };
 		98AE7CAC1D45DFCE00D8A658 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98AE7CAA1D45DFCE00D8A658 /* HomeViewController.xib */; };
 		98E784EE1CB74E2400D6BD0E /* LHApiCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E784ED1CB74E2400D6BD0E /* LHApiCategory.m */; };
+		98F8E5341D49EF2100E41800 /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8E5321D49EF2100E41800 /* PathViewController.m */; };
+		98F8E5351D49EF2100E41800 /* PathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8E5331D49EF2100E41800 /* PathViewController.xib */; };
+		98F8E5391D49EF2F00E41800 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8E5371D49EF2F00E41800 /* InfoViewController.m */; };
+		98F8E53A1D49EF2F00E41800 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8E5381D49EF2F00E41800 /* InfoViewController.xib */; };
+		98F8E53D1D49EF5A00E41800 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8E53C1D49EF5A00E41800 /* BaseTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -303,6 +308,14 @@
 		98E784EC1CB74E2400D6BD0E /* LHApiCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHApiCategory.h; sourceTree = "<group>"; };
 		98E784ED1CB74E2400D6BD0E /* LHApiCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHApiCategory.m; sourceTree = "<group>"; };
 		98E784F01CB74EB400D6BD0E /* NetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConfig.h; sourceTree = "<group>"; };
+		98F8E5311D49EF2100E41800 /* PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathViewController.h; sourceTree = "<group>"; };
+		98F8E5321D49EF2100E41800 /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
+		98F8E5331D49EF2100E41800 /* PathViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PathViewController.xib; sourceTree = "<group>"; };
+		98F8E5361D49EF2F00E41800 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		98F8E5371D49EF2F00E41800 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		98F8E5381D49EF2F00E41800 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		98F8E53B1D49EF5A00E41800 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		98F8E53C1D49EF5A00E41800 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
 		A04C20CC556600E657D7B571 /* Pods-LifeAs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeAs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifeAs/Pods-LifeAs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -678,6 +691,8 @@
 				98AE7CA31D45BD4500D8A658 /* BaseNavigationViewController.m */,
 				98AE7CA51D45DDFF00D8A658 /* BaseViewController.h */,
 				98AE7CA61D45DDFF00D8A658 /* BaseViewController.m */,
+				98F8E53B1D49EF5A00E41800 /* BaseTabBarViewController.h */,
+				98F8E53C1D49EF5A00E41800 /* BaseTabBarViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -691,6 +706,12 @@
 				98AE7CA81D45DFCE00D8A658 /* HomeViewController.h */,
 				98AE7CA91D45DFCE00D8A658 /* HomeViewController.m */,
 				98AE7CAA1D45DFCE00D8A658 /* HomeViewController.xib */,
+				98F8E5311D49EF2100E41800 /* PathViewController.h */,
+				98F8E5321D49EF2100E41800 /* PathViewController.m */,
+				98F8E5331D49EF2100E41800 /* PathViewController.xib */,
+				98F8E5361D49EF2F00E41800 /* InfoViewController.h */,
+				98F8E5371D49EF2F00E41800 /* InfoViewController.m */,
+				98F8E5381D49EF2F00E41800 /* InfoViewController.xib */,
 				98E784E51CB74DFC00D6BD0E /* API */,
 				98E784E81CB74DFC00D6BD0E /* Function */,
 			);
@@ -802,6 +823,8 @@
 				980C2FF01D48B6FF00EE7A3E /* LaunchScreen.storyboard in Resources */,
 				980C2FED1D48B6F200EE7A3E /* Assets.xcassets in Resources */,
 				98AE7CAC1D45DFCE00D8A658 /* HomeViewController.xib in Resources */,
+				98F8E53A1D49EF2F00E41800 /* InfoViewController.xib in Resources */,
+				98F8E5351D49EF2100E41800 /* PathViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,6 +923,7 @@
 				98AE7C761D45BA9700D8A658 /* NSDictionary+LHTextAttributesDic.m in Sources */,
 				98AE7C0A1D45B5A100D8A658 /* UIView+LayoutMethods.m in Sources */,
 				98AE7C8F1D45BA9700D8A658 /* UIImage+LHResizeImage.m in Sources */,
+				98F8E5341D49EF2100E41800 /* PathViewController.m in Sources */,
 				98AE7BC91D45B55C00D8A658 /* MKMapView+ASCategory.m in Sources */,
 				98AE7C821D45BA9700D8A658 /* NSMutableAttributedString+SinglePriceLabelStr.m in Sources */,
 				98AE7C7B1D45BA9700D8A658 /* NSString+MD5.m in Sources */,
@@ -943,6 +967,7 @@
 				98AE7C781D45BA9700D8A658 /* NSString+Date.m in Sources */,
 				98AE7C801D45BA9700D8A658 /* CATransition+LHTransition.m in Sources */,
 				98AE7BC51D45B55C00D8A658 /* ASGeometry.m in Sources */,
+				98F8E5391D49EF2F00E41800 /* InfoViewController.m in Sources */,
 				98AE7C7E1D45BA9700D8A658 /* NetWorkHelper.m in Sources */,
 				98AE7C981D45BA9700D8A658 /* UITextView+Placeholder.m in Sources */,
 				98AE7C851D45BA9700D8A658 /* UIActionSheet+Blocks.m in Sources */,
@@ -950,6 +975,7 @@
 				98AE7BD91D45B55C00D8A658 /* UINavigationBar+ASCategory.m in Sources */,
 				98AE7C891D45BA9700D8A658 /* UIButton+ImageTitleSpacing.m in Sources */,
 				98AE7BDA1D45B55C00D8A658 /* UINavigationController+ASCategory.m in Sources */,
+				98F8E53D1D49EF5A00E41800 /* BaseTabBarViewController.m in Sources */,
 				98AE7C7F1D45BA9700D8A658 /* BaseNavigationViewController+LHPushAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

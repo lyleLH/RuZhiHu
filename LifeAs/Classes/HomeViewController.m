@@ -27,7 +27,6 @@
     vc.title = @"Tomorrow";
     [self.navigationController pushViewController:vc animated:YES];
     
-    
 }
 
 
