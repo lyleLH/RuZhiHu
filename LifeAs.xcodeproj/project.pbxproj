@@ -107,6 +107,7 @@
 		98F8E5391D49EF2F00E41800 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8E5371D49EF2F00E41800 /* InfoViewController.m */; };
 		98F8E53A1D49EF2F00E41800 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98F8E5381D49EF2F00E41800 /* InfoViewController.xib */; };
 		98F8E53D1D49EF5A00E41800 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8E53C1D49EF5A00E41800 /* BaseTabBarViewController.m */; };
+		98F8E5411D4B564300E41800 /* URLs.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8E5401D4B564300E41800 /* URLs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -316,6 +317,8 @@
 		98F8E5381D49EF2F00E41800 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
 		98F8E53B1D49EF5A00E41800 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
 		98F8E53C1D49EF5A00E41800 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		98F8E53F1D4B564300E41800 /* URLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLs.h; sourceTree = "<group>"; };
+		98F8E5401D4B564300E41800 /* URLs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLs.m; sourceTree = "<group>"; };
 		A04C20CC556600E657D7B571 /* Pods-LifeAs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeAs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifeAs/Pods-LifeAs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -721,6 +724,7 @@
 		98E784E51CB74DFC00D6BD0E /* API */ = {
 			isa = PBXGroup;
 			children = (
+				98F8E53E1D4B563400E41800 /* URLs */,
 				98E784EF1CB74EA200D6BD0E /* Config */,
 				98E784E61CB74DFC00D6BD0E /* Source */,
 			);
@@ -749,6 +753,15 @@
 				98E784F01CB74EB400D6BD0E /* NetConfig.h */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		98F8E53E1D4B563400E41800 /* URLs */ = {
+			isa = PBXGroup;
+			children = (
+				98F8E53F1D4B564300E41800 /* URLs.h */,
+				98F8E5401D4B564300E41800 /* URLs.m */,
+			);
+			path = URLs;
 			sourceTree = "<group>";
 		};
 		C6F1E9059E5B224F81214B43 /* Pods */ = {
@@ -963,6 +976,7 @@
 				98AE7C8D1D45BA9700D8A658 /* UIFont+LHUtility.m in Sources */,
 				98AE7BCD1D45B55C00D8A658 /* NSMutableArray+ASCategory.m in Sources */,
 				98AE7BC21D45B55C00D8A658 /* ALLoadingView.m in Sources */,
+				98F8E5411D4B564300E41800 /* URLs.m in Sources */,
 				98AE7C921D45BA9700D8A658 /* UILabel+Copyable.m in Sources */,
 				98AE7C781D45BA9700D8A658 /* NSString+Date.m in Sources */,
 				98AE7C801D45BA9700D8A658 /* CATransition+LHTransition.m in Sources */,
