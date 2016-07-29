@@ -8,9 +8,9 @@
 
 #import "URLs.h"
 
-NSString *const kCDKAPIScheme = @"https";
-NSString *const kCDKAPIHost = @"api.cheddarapp.com";
-NSString *const kCDKPusherAPIKey = @"675f10a650f18b4eb0a8";
+NSString *const kLAsAPIScheme = @"https";
+NSString *const kLAsAPIHost = @"api.cheddarapp.com";
+NSString *const kLAsPusherAPIKey = @"675f10a650f18b4eb0a8";
 
 
 

@@ -16,9 +16,9 @@
 
 #endif
 
-extern NSString *const kCDKAPIScheme;
-extern NSString *const kCDKAPIHost;
-extern NSString *const kCDKPusherAPIKey;
+extern NSString *const kLAsAPIScheme;
+extern NSString *const kLAsAPIHost;
+extern NSString *const kLAsPusherAPIKey;
 
 
 #ifdef API //正式环境下的宏定义或者可获取到的全局变量
