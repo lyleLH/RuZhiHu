@@ -118,7 +118,7 @@ andSetUpTabbarOfViewControllerWithTitle:(NSString *)title
     UIGraphicsBeginImageContext(rect.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetFillColorWithColor(context,
-                                   [UIColor kp_themecolor].CGColor);
+                                   UIColorFromRGB(0xfb8135).CGColor);
     CGContextFillRect(context, rect);
     UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
@@ -126,7 +126,7 @@ andSetUpTabbarOfViewControllerWithTitle:(NSString *)title
     [self.tabBar setBackgroundImage:[[UIImage alloc]init]];
     //改变背景为白色
     UIView *bgView = [[UIView alloc] initWithFrame:self.tabBar.bounds];
-    bgView.backgroundColor = [UIColor whiteColor];
+    bgView.backgroundColor = [UIColor kp_themecolor];
     [self.tabBar insertSubview:bgView atIndex:0];
     self.tabBar.opaque = YES;
     
@@ -136,11 +136,11 @@ andSetUpTabbarOfViewControllerWithTitle:(NSString *)title
     
     //正常文字
     NSMutableDictionary * textNomalAttributesDic = [[NSMutableDictionary alloc] init];
-    textNomalAttributesDic[NSForegroundColorAttributeName] = [UIColor kp_suggestiveGrayColor];
+    textNomalAttributesDic[NSForegroundColorAttributeName] = UIColorFromRGB(0x888888);
     [childViewController.tabBarItem setTitleTextAttributes:textNomalAttributesDic forState:UIControlStateNormal];
     //选中文字
     NSMutableDictionary * textSelectedAttributesDic = [[NSMutableDictionary alloc] init];
-    textSelectedAttributesDic[NSForegroundColorAttributeName] = [UIColor kp_themecolor];
+    textSelectedAttributesDic[NSForegroundColorAttributeName] = UIColorFromRGB(0xfb8135);
     [childViewController.tabBarItem setTitleTextAttributes:textSelectedAttributesDic forState:UIControlStateSelected];
     
     // 即使使用的图片有渲染颜色，也会被渲染成系统蓝色
