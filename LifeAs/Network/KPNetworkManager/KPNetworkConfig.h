@@ -6,14 +6,16 @@
 //  Copyright © 2016年 Kuparts. All rights reserved.
 //
 #import <UIKit/UIKit.h>
+#import "URLs.h"
+
 #ifndef KPNetworkConfig_h
 #define KPNetworkConfig_h
 
 
-//static NSString *kHTTPMethodGet = @"GET";
-//static NSString *kHTTPMethodPost = @"POST";
-//static NSString *kHTTPMethodPut = @"PUT";
-//static NSString *kHTTPMethodDelete = @"DELETE";
+static NSString *kHTTPMethodGet = @"GET";
+static NSString *kHTTPMethodPost = @"POST";
+static NSString *kHTTPMethodPut = @"PUT";
+static NSString *kHTTPMethodDelete = @"DELETE";
 
 static CGFloat kTimeoutInterval = 30.0f;
 
