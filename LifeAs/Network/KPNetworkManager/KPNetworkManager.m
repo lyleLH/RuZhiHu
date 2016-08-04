@@ -15,7 +15,7 @@
 
 @interface KPNetworkManager ()
 
-@property (nonatomic, strong) NSArray *classes;
+
 
 @end
 
@@ -23,11 +23,7 @@
 
 - (instancetype)init{
     if (self = [super  init]) {
-        self.classes = @[@(kClassMethod_ProductList),
-                         @(kClassMethod_ProductDetails),
-                         @(kClassMethod_ProductStock),
-                         @(kClassMethod_ProductClassify),
-                         ];
+
     }
     
     return self;

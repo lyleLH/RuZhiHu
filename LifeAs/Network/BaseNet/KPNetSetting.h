@@ -22,7 +22,7 @@
 
 #else
 
-#define kURL_PREFIX  @"http://192.168.1.21:8090/api/"
+#define kURL_PREFIX  @"http://127.0.0.1:5000/todo/api/v1.0"
 #define xmppServerHost @"10.1.1.4"
 #define JPushEnv @"Development"
 
