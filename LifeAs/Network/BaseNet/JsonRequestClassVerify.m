@@ -31,7 +31,6 @@
             return nil;
             break;
 
-#pragma mark-- AutoService 服务相关接口
         // START
         case kClassMethod_Tasks: //
             return [self task];

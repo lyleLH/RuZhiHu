@@ -11,8 +11,10 @@
 
 
 typedef enum {
+    
     kClassName_None = -1,
     kClassName_KP_Business = 100
+    
 }JsonClassName;
 
 typedef enum {

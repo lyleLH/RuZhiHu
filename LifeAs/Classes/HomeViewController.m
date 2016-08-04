@@ -20,6 +20,7 @@
     self.title = @"Home";
 //    [KPNetworkManager sharedManager]
     NSLog(@"%@",kLAsAPIScheme);
+    
     [[KPNetworkManager sharedManager] requestWithClassMethod:kClassMethod_Tasks parameters:nil delegate:nil HTTPMethod:KPHTTPMethodGet responseBlock:^(KPResponse *response) {
         
     }];
